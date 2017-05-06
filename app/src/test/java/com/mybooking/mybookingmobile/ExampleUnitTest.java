@@ -1,4 +1,4 @@
-package life.mybooking.mybooking;
+package com.mybooking.mybookingmobile;
 
 import org.junit.Test;
 

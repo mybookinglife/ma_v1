@@ -1,4 +1,4 @@
-package life.mybooking.mybooking;
+package com.mybooking.mybookingmobile;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("life.mybooking.mybooking", appContext.getPackageName());
+        assertEquals("com.mybooking.mybookingmobile", appContext.getPackageName());
     }
 }

@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">MyBooking</string>
+    <string name="app_name">Mybooking Mobile</string>
+    <string name="NewBooking">Новая заявка</string>
+    <string name="ListBookings">Список заявок</string>
+    <string name="tvCompany">Компания</string>
+    <string name="tvExpert">Специалист</string>
+    <string name="tvNewBooking">Новая заявка</string>
+    <string name="tvListBookigs">Список заявок</string>
 </resources>
