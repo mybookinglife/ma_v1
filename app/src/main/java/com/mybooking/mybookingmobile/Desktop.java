@@ -11,6 +11,8 @@ public class Desktop extends AppCompatActivity implements View.OnClickListener {
     Button btnNewBooking;
     Button btnListBookings;
 
+    DBHelper dbHelper;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +23,9 @@ public class Desktop extends AppCompatActivity implements View.OnClickListener {
 
         btnNewBooking.setOnClickListener(this);
         btnListBookings.setOnClickListener(this);
+
+        dbHelper = new DBHelper(this);
+
     }
 
     @Override
